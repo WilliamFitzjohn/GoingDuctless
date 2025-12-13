@@ -1,23 +1,58 @@
 import { Link } from 'react-router-dom';
 import Gallery from '../components/Gallery';
+import Testimonials from '../components/Testimonials';
+import SEO from '../components/SEO';
 import './Home.css';
 
 export default function Home() {
   return (
     <div className="home">
+      <SEO 
+        title="Commercial HVAC & Ductless Systems"
+        description="Expert commercial ductless HVAC solutions in the Greater Toronto Area. Over 25 years experience in VRF, VRV, and ductless systems. TSSA certified, HRAI members. Call (905) 239-5567"
+        keywords="ductless HVAC, VRF systems, VRV systems, commercial HVAC, Mitsubishi HVAC, LG HVAC, Lennox, DX piping, Toronto HVAC, Bowmanville HVAC"
+      />
       <section className="hero">
         <div className="hero-overlay"></div>
         <div className="hero-content">
           <h1 className="hero-title">
-            Professional HVAC Solutions
-            <span className="hero-subtitle">For Commercial & Industrial Systems</span>
+            Commercial HVAC Solutions
+            <span className="hero-subtitle">The Ductless Airconditioning Experts</span>
           </h1>
           <p className="hero-description">
-            Over 25 years of excellence in VRF systems, commercial HVAC, and DX piping installations
+            Over 25 years of engineering excellence in VRF, VRV, ductless, and large DX systems.<br/>Serving the Greater Toronto Area, and beyond with certified installations.
           </p>
           <div className="hero-buttons">
             <Link to="/contact" className="btn btn-primary">Get In Touch</Link>
             <Link to="/about" className="btn btn-secondary">Learn More</Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="social-proof">
+        <div className="container">
+          <div className="logo-strip">
+            <Link to="/about#certifications" className="cert-logo">
+              <img src="/tssa.png" alt="TSSA Certified" />
+            </Link>
+            <Link to="/about#certifications" className="cert-logo">
+              <img src="/hrai.png" alt="HRAI Member" />
+            </Link>
+            <Link to="/about#certifications" className="cert-logo">
+              <img src="/wsib.png" alt="WSIB" />
+            </Link>
+            <Link to="/about#certifications" className="cert-logo">
+              <img src="/mitsubishi.png" alt="Mitsubishi Certified" />
+            </Link>
+            <Link to="/about#certifications" className="cert-logo">
+              <img src="/lg.png" alt="LG Certified" />
+            </Link>
+            <Link to="/about#certifications" className="cert-logo">
+              <img src="/lennox.png" alt="Lennox Certified" />
+            </Link>
+            <Link to="/about#certifications" className="cert-logo">
+              <img src="/daikin.png" alt="Lennox Certified" />
+            </Link>
           </div>
         </div>
       </section>
@@ -34,8 +69,8 @@ export default function Home() {
                   <path d="M15 3v18"/>
                 </svg>
               </div>
-              <h3>VRF Systems</h3>
-              <p>Expert installation and maintenance of Variable Refrigerant Flow systems for maximum efficiency and comfort control.</p>
+              <h3>VRF & VRV Systems</h3>
+              <p>Engineered solutions for Variable Refrigerant Flow and Variable Refrigerant Volume systems. Expert installation and maintenance for offices, server rooms, hotels, schools, and hospitals.</p>
             </div>
 
             <div className="service-card">
@@ -48,8 +83,8 @@ export default function Home() {
                   <path d="M9 14h6"/>
                 </svg>
               </div>
-              <h3>Commercial HVAC</h3>
-              <p>Comprehensive commercial heating, ventilation, and air conditioning solutions for businesses of all sizes.</p>
+              <h3>Ductless Systems</h3>
+              <p>Complete installation and maintenance of single-split and multi-split ductless systems. Working with industry-leading brands including Mitsubishi, Daikin, and Fujitsu for optimal performance.</p>
             </div>
 
             <div className="service-card">
@@ -71,12 +106,12 @@ export default function Home() {
         <div className="container">
           <div className="experience-content">
             <div className="experience-text">
-              <h2>25+ Years of Excellence</h2>
+              <h2>Engineered for Excellence</h2>
               <p>
-                With over a quarter century of experience in the HVAC industry, we've built our reputation on quality workmanship, technical expertise, and unwavering commitment to customer satisfaction.
+                Based in Bowmanville and serving the entire Greater Toronto Area, Going Ductless Ltd. brings over 25 years of specialized expertise in ductless HVAC systems. Our knowledgeable staff delivers engineered solutions tailored to your commercial needs.
               </p>
               <p>
-                Our team of certified technicians stays current with the latest technologies and best practices to deliver superior results on every project.
+                TSSA certified and HRAI members, we're committed to the highest standards in installation quality and technical excellence. From initial design to final commissioning, we ensure your ductless system performs flawlessly.
               </p>
             </div>
             <div className="experience-stats">
@@ -99,10 +134,12 @@ export default function Home() {
 
       <Gallery />
 
+      <Testimonials />
+
       <section className="cta">
         <div className="container">
           <h2>Ready to Start Your Project?</h2>
-          <p>Contact us today for a consultation and see how we can help with your HVAC needs.</p>
+          <p>Contact us today for an engineered ductless HVAC solution tailored to your commercial facility.</p>
           <Link to="/contact" className="btn btn-primary btn-large">Contact Us</Link>
         </div>
       </section>

@@ -8,8 +8,11 @@ export default function Navigation() {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="logo">
-          <span className="logo-text">APEX</span>
-          <span className="logo-subtext">HVAC Solutions</span>
+          <img 
+            src="/logo-nobackground-cyan.png" 
+            alt="Going Ductless" 
+            className="logo-image"
+          />
         </Link>
         <div className="nav-links">
           <Link

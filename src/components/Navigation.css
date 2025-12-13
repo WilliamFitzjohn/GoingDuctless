@@ -5,7 +5,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 3px solid #ff6b35;
+  border-bottom: 3px solid #4DA6E0;
 }
 
 .nav-container {
@@ -20,14 +20,23 @@
 .logo {
   text-decoration: none;
   display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+  align-items: center;
+}
+
+.logo-image {
+  height: 50px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover .logo-image {
+  transform: scale(1.05);
 }
 
 .logo-text {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #ff6b35;
+  color: #4DA6E0;
   letter-spacing: 2px;
   line-height: 1;
 }
@@ -63,13 +72,13 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background: #ff6b35;
+  background: #4DA6E0;
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
 
 .nav-link:hover {
-  color: #ff6b35;
+  color: #4DA6E0;
 }
 
 .nav-link:hover::after,
@@ -78,7 +87,7 @@
 }
 
 .nav-link.active {
-  color: #ff6b35;
+  color: #4DA6E0;
 }
 
 @media (max-width: 768px) {

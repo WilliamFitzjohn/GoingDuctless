@@ -3,34 +3,34 @@ import './Gallery.css';
 export default function Gallery() {
   const images = [
     {
-      url: 'https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Commercial HVAC installation',
+      url: '/vrfsysteminstall.jpg',
+      alt: 'VRF System Installation',
       title: 'VRF System Installation'
     },
     {
-      url: 'https://images.pexels.com/photos/159358/construction-site-build-construction-work-159358.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Industrial piping work',
-      title: 'DX Piping Project'
+      url: '/dxpiping.jpg',
+      alt: 'DX Piping Project',
+      title: 'DX Piping'
     },
     {
-      url: 'https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Commercial building HVAC',
+      url: '/commercialinstallation.jpg',
+      alt: 'Commercial Installation',
       title: 'Commercial Installation'
     },
     {
-      url: 'https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'HVAC mechanical room',
+      url: '/mechanicalroom.jpg',
+      alt: 'Mechanical Room Setup',
       title: 'Mechanical Room Setup'
     },
     {
-      url: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Industrial building exterior',
+      url: '/rooftopunit.jpeg',
+      alt: 'Rooftop Unit Installation',
       title: 'Rooftop Unit Installation'
     },
     {
-      url: 'https://images.pexels.com/photos/1117452/pexels-photo-1117452.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Construction site equipment',
-      title: 'Equipment Installation'
+      url: '/engineeredsolutions.jpg',
+      alt: 'Engineering Drawings and Designs',
+      title: 'Engineered Solutions'
     }
   ];
 
@@ -51,9 +51,6 @@ export default function Gallery() {
             </div>
           ))}
         </div>
-        <p className="gallery-note">
-          * Placeholder images - Replace with your actual jobsite photos
-        </p>
       </div>
     </section>
   );

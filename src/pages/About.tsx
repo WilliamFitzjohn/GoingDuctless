@@ -1,13 +1,20 @@
+import SEO from '../components/SEO';
 import './About.css';
 
 export default function About() {
   return (
     <div className="about">
+      <SEO 
+        title="About Us"
+        description="Learn about Going Ductless Ltd. Over 25 years of commercial HVAC excellence in the GTA. TSSA certified, HRAI members. Experts in VRF, VRV, and ductless split systems."
+        keywords="HVAC company Bowmanville, TSSA certified HVAC, HRAI member, commercial HVAC GTA, ductless specialists"
+        canonical="https://goingductless.ca/about"
+      />
       <section className="about-hero">
         <div className="container">
           <h1>About Us</h1>
           <p className="about-lead">
-            Building excellence in HVAC solutions for over 25 years
+            Building excellence in ductless HVAC solutions for over 25 years
           </p>
         </div>
       </section>
@@ -18,13 +25,13 @@ export default function About() {
             <div className="about-text">
               <h2>Our Story</h2>
               <p>
-                Founded over 25 years ago, our company has grown from a small local operation to a trusted name in commercial and industrial HVAC solutions. Our commitment to excellence and customer satisfaction has remained unwavering throughout our journey.
+                Based in Bowmanville, Ontario, Going Ductless Ltd. has been serving the Greater Toronto Area for over 25 years. Our company has grown from a small specialized operation to become a trusted name in commercial ductless HVAC solutions. Our commitment to engineering excellence and customer satisfaction has remained unwavering throughout our journey.
               </p>
               <p>
-                We specialize in Variable Refrigerant Flow (VRF) systems, commercial HVAC installations, and precision DX piping work. Our team of certified technicians brings decades of combined experience to every project, ensuring the highest standards of quality and performance.
+                We specialize in Variable Refrigerant Flow (VRF), Variable Refrigerant Volume (VRV), and ductless split systems. Our knowledgeable staff brings decades of combined experience to every project, working with premium brands including Mitsubishi, Daikin, and Fujitsu. We ensure the highest standards of quality and performance on every installation.
               </p>
               <p>
-                From initial consultation to final installation and ongoing maintenance, we provide comprehensive solutions tailored to meet the unique needs of each client. Our technical expertise, combined with our dedication to staying current with industry innovations, allows us to deliver cutting-edge HVAC systems that maximize energy efficiency and operational reliability.
+                From initial system design to final commissioning, we provide engineered solutions tailored to meet the unique needs of each commercial client. Our technical expertise, combined with TSSA certification and HRAI membership, allows us to deliver cutting-edge ductless systems that maximize energy efficiency and operational reliability across offices, server rooms, hotels, schools, and hospitals.
               </p>
             </div>
 
@@ -32,17 +39,17 @@ export default function About() {
               <div className="highlight-card">
                 <h3>Our Mission</h3>
                 <p>
-                  To deliver superior HVAC solutions that exceed expectations through technical expertise, quality workmanship, and exceptional customer service.
+                  To deliver superior ductless HVAC solutions that exceed expectations through engineered design, quality installation, and decades of specialized experience in VRF, VRV, and split systems.
                 </p>
               </div>
               <div className="highlight-card">
                 <h3>Our Values</h3>
                 <ul>
-                  <li>Quality craftsmanship on every project</li>
-                  <li>Honest and transparent communication</li>
-                  <li>Continuous technical education</li>
-                  <li>Safety-first approach</li>
-                  <li>Environmental responsibility</li>
+                  <li>Engineered solutions tailored to each project</li>
+                  <li>TSSA certified installation excellence</li>
+                  <li>Continuous technical training and expertise</li>
+                  <li>Safety-first approach on every jobsite</li>
+                  <li>Energy-efficient ductless technology</li>
                 </ul>
               </div>
             </div>
@@ -55,39 +62,39 @@ export default function About() {
           <h2>Areas of Expertise</h2>
           <div className="expertise-grid">
             <div className="expertise-item">
-              <h3>VRF Systems</h3>
+              <h3>VRF & VRV Systems</h3>
               <p>
-                Advanced Variable Refrigerant Flow technology for precise temperature control and maximum energy efficiency in commercial buildings.
+                Advanced Variable Refrigerant Flow and Volume technology for precise temperature control and maximum energy efficiency in commercial buildings.
               </p>
             </div>
             <div className="expertise-item">
-              <h3>Commercial HVAC</h3>
+              <h3>Multi-Split Systems</h3>
               <p>
-                Complete heating, ventilation, and air conditioning solutions for office buildings, retail spaces, and industrial facilities.
+                Complete multi-split ductless installations for offices, server rooms, hotels, schools, and hospitals with zone-by-zone climate control.
               </p>
             </div>
             <div className="expertise-item">
-              <h3>DX Piping</h3>
+              <h3>Single-Split Systems</h3>
               <p>
-                Expert installation of direct expansion refrigerant piping systems with precision brazing and pressure testing.
+                Expert installation of single-split ductless systems for targeted cooling and heating in specific zones or spaces.
               </p>
             </div>
             <div className="expertise-item">
-              <h3>System Design</h3>
+              <h3>Engineered Design</h3>
               <p>
-                Custom HVAC system design and engineering to meet specific building requirements and performance goals.
+                Custom ductless system design and engineering to meet specific building requirements, load calculations, and performance goals.
               </p>
             </div>
             <div className="expertise-item">
-              <h3>Maintenance</h3>
+              <h3>DX Piping Excellence</h3>
               <p>
-                Comprehensive preventive maintenance programs to ensure optimal system performance and longevity.
+                Precision direct expansion refrigerant piping installation with expert brazing, pressure testing, and leak detection.
               </p>
             </div>
             <div className="expertise-item">
-              <h3>Energy Solutions</h3>
+              <h3>Premium Brands</h3>
               <p>
-                Energy-efficient system upgrades and retrofits to reduce operating costs and environmental impact.
+                Certified installations of industry-leading brands: Mitsubishi Electric, Daikin, and Fujitsu ductless systems.
               </p>
             </div>
           </div>
@@ -103,62 +110,47 @@ export default function About() {
           <div className="certifications-grid">
             <div className="cert-card">
               <div className="cert-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
-                </svg>
+                <img src="/tssa.png" alt="TSSA" />
               </div>
-              <h3>EPA Certified</h3>
-              <p>Environmental Protection Agency refrigerant handling certification</p>
+              <h3>TSSA Certified</h3>
+              <p>Technical Standards and Safety Authority certification for refrigeration systems in Ontario</p>
             </div>
             <div className="cert-card">
               <div className="cert-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
-                </svg>
+                <img src="/hrai.png" alt="HRAI" />
               </div>
-              <h3>HVAC Excellence</h3>
-              <p>Industry-recognized technical competency certification</p>
+              <h3>HRAI Member</h3>
+              <p>Heating, Refrigeration and Air Conditioning Institute of Canada professional member organization</p>
             </div>
             <div className="cert-card">
               <div className="cert-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
-                </svg>
-              </div>
-              <h3>NATE Certified</h3>
-              <p>North American Technician Excellence certification</p>
-            </div>
-            <div className="cert-card">
-              <div className="cert-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
-                </svg>
+                <img src="/wsib.png" alt="WSIB" />
               </div>
               <h3>Licensed & Insured</h3>
-              <p>Fully licensed contractors with comprehensive liability coverage</p>
+              <p>Fully licensed contractors with comprehensive liability coverage and WSIB compliance</p>
             </div>
             <div className="cert-card">
               <div className="cert-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
-                </svg>
+                <img src="/mitsubishi.png" alt="Mitsubishi" />
               </div>
-              <h3>ACCA Member</h3>
-              <p>Air Conditioning Contractors of America member organization</p>
+              <h3>Mitsubishi Certified</h3>
+              <p>Factory-trained and certified for Mitsubishi Electric ductless system installation</p>
             </div>
             <div className="cert-card">
               <div className="cert-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
-                </svg>
+                <img src="/lg.png" alt="LG" />
               </div>
-              <h3>OSHA Safety</h3>
-              <p>Occupational Safety and Health Administration compliance training</p>
+              <h3>LG Certified</h3>
+              <p>Authorized LG installer with specialized multi-zone ductless system training</p>
+            </div>
+            <div className="cert-card">
+              <div className="cert-icon">
+                <img src="/lennox.png" alt="Lennox" />
+              </div>
+              <h3>Lennox Certified</h3>
+              <p>Certified installer for Lennox ductless heating and cooling systems</p>
             </div>
           </div>
-          <p className="cert-note">
-            * Template certifications - Update with your actual certifications and memberships
-          </p>
         </div>
       </section>
     </div>

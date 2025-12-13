@@ -24,22 +24,22 @@
       90deg,
       transparent,
       transparent 50px,
-      rgba(255, 107, 53, 0.03) 50px,
-      rgba(255, 107, 53, 0.03) 51px
+      rgba(77, 166, 224, 0.03) 50px,
+      rgba(77, 166, 224, 0.03) 51px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 50px,
-      rgba(255, 107, 53, 0.03) 50px,
-      rgba(255, 107, 53, 0.03) 51px
+      rgba(77, 166, 224, 0.03) 50px,
+      rgba(77, 166, 224, 0.03) 51px
     );
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 30% 50%, rgba(255, 107, 53, 0.15), transparent 50%);
+  background: radial-gradient(circle at 30% 50%, rgba(77, 166, 224, 0.15), transparent 50%);
 }
 
 .hero-content {
@@ -63,7 +63,7 @@
 
 .hero-subtitle {
   font-size: 1.8rem;
-  color: #ff6b35;
+  color: #4DA6E0;
   font-weight: 600;
   display: block;
 }
@@ -94,15 +94,15 @@
 }
 
 .btn-primary {
-  background: #ff6b35;
+  background: #4DA6E0;
   color: #ffffff;
-  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 4px 15px rgba(77, 166, 224, 0.3);
 }
 
 .btn-primary:hover {
-  background: #e55a2b;
+  background: #3A8BC7;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+  box-shadow: 0 6px 20px rgba(77, 166, 224, 0.4);
 }
 
 .btn-secondary {
@@ -120,6 +120,48 @@
 .btn-large {
   padding: 1.25rem 3rem;
   font-size: 1.2rem;
+}
+
+.social-proof {
+  padding: 3rem 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo-strip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.cert-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* opacity: 0.7; */
+  transition: all 0.3s ease;
+  height: 60px;
+}
+
+.cert-logo img {
+  max-height: 60px;
+  max-width: 120px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  /* filter: grayscale(100%); */
+  transition: all 0.3s ease;
+}
+
+.cert-logo:hover {
+  opacity: 1;
+}
+
+.cert-logo:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.05);
 }
 
 .container {
@@ -153,7 +195,7 @@
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  border-top: 4px solid #ff6b35;
+  border-top: 4px solid #4DA6E0;
 }
 
 .service-card:hover {
@@ -165,7 +207,7 @@
   width: 60px;
   height: 60px;
   margin-bottom: 1.5rem;
-  color: #ff6b35;
+  color: #4DA6E0;
 }
 
 .service-icon svg {
@@ -200,7 +242,7 @@
 
 .experience-text h2 {
   font-size: 2.5rem;
-  color: #ff6b35;
+  color: #4DA6E0;
   margin-bottom: 1.5rem;
   font-weight: 700;
 }
@@ -222,15 +264,15 @@
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
-  background: rgba(255, 107, 53, 0.1);
+  background: rgba(77, 166, 224, 0.1);
   border-radius: 8px;
-  border-left: 4px solid #ff6b35;
+  border-left: 4px solid #4DA6E0;
 }
 
 .stat-number {
   font-size: 3rem;
   font-weight: 700;
-  color: #ff6b35;
+  color: #4DA6E0;
   line-height: 1;
   margin-bottom: 0.5rem;
 }
@@ -294,5 +336,18 @@
 
   .services-grid {
     grid-template-columns: 1fr;
+  }
+
+  .logo-strip {
+    gap: 2rem;
+  }
+
+  .cert-logo {
+    height: 45px;
+  }
+
+  .cert-logo img {
+    max-height: 45px;
+    max-width: 90px;
   }
 }

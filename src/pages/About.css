@@ -10,7 +10,7 @@
 
 .about-hero h1 {
   font-size: 3.5rem;
-  color: #ff6b35;
+  color: #4DA6E0;
   margin-bottom: 1rem;
   font-weight: 700;
 }
@@ -57,7 +57,7 @@
   background: linear-gradient(135deg, #f8f8f8 0%, #e8e8e8 100%);
   padding: 2rem;
   border-radius: 12px;
-  border-left: 4px solid #ff6b35;
+  border-left: 4px solid #4DA6E0;
 }
 
 .highlight-card h3 {
@@ -90,7 +90,7 @@
   content: '→';
   position: absolute;
   left: 0;
-  color: #ff6b35;
+  color: #4DA6E0;
   font-weight: bold;
 }
 
@@ -128,7 +128,7 @@
 
 .expertise-item h3 {
   font-size: 1.4rem;
-  color: #ff6b35;
+  color: #4DA6E0;
   margin-bottom: 1rem;
   font-weight: 600;
 }
@@ -146,7 +146,7 @@
 .certifications h2 {
   text-align: center;
   font-size: 2.5rem;
-  color: #ff6b35;
+  color: #4DA6E0;
   margin-bottom: 1rem;
   font-weight: 700;
 }
@@ -160,7 +160,7 @@
 
 .certifications-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-bottom: 2rem;
 }
@@ -170,13 +170,13 @@
   padding: 2rem;
   border-radius: 12px;
   text-align: center;
-  border: 1px solid rgba(255, 107, 53, 0.2);
+  border: 1px solid rgba(77, 166, 224, 0.2);
   transition: all 0.3s ease;
 }
 
 .cert-card:hover {
-  background: rgba(255, 107, 53, 0.1);
-  border-color: #ff6b35;
+  background: rgba(77, 166, 224, 0.1);
+  border-color: #4DA6E0;
   transform: translateY(-4px);
 }
 
@@ -184,7 +184,7 @@
   width: 60px;
   height: 60px;
   margin: 0 auto 1.5rem;
-  color: #ff6b35;
+  color: #4DA6E0;
 }
 
 .cert-icon svg {

@@ -1,13 +1,20 @@
+import SEO from '../components/SEO';
 import './Contact.css';
 
 export default function Contact() {
   return (
     <div className="contact">
+      <SEO 
+        title="Contact Us"
+        description="Contact Going Ductless Ltd. for commercial HVAC solutions in the GTA. Call (905) 239-5567 or email sales@goingductless.ca. Bowmanville, Ontario."
+        keywords="contact HVAC Bowmanville, HVAC quote GTA, ductless HVAC consultation, commercial HVAC services"
+        canonical="https://goingductless.ca/contact"
+      />
       <section className="contact-hero">
         <div className="container">
           <h1>Contact Us</h1>
           <p className="contact-lead">
-            Get in touch with our team for inquiries, quotes, or project consultations
+            Get in touch for ductless HVAC project inquiries and engineered solutions across the GTA
           </p>
         </div>
       </section>
@@ -18,7 +25,7 @@ export default function Contact() {
             <div className="contact-info">
               <h2>Get In Touch</h2>
               <p className="contact-description">
-                We're here to help with all your HVAC needs. Whether you're planning a new installation, need maintenance services, or have questions about our capabilities, our experienced team is ready to assist you.
+                Based in Bowmanville and serving the entire Greater Toronto Area, we're here to help with your commercial ductless HVAC projects. Whether you're planning a new VRF installation, multi-split system, or have questions about our engineered solutions, our knowledgeable team is ready to assist you.
               </p>
 
               <div className="info-cards">
@@ -30,7 +37,7 @@ export default function Contact() {
                   </div>
                   <div className="info-content">
                     <h3>Phone</h3>
-                    <a href="tel:+15551234567" className="info-link">(555) 123-4567</a>
+                    <a href="tel:+19052395567" className="info-link">(905) 239-5567</a>
                     <p className="info-note">Mon - Fri: 8:00 AM - 5:00 PM</p>
                   </div>
                 </div>
@@ -44,7 +51,7 @@ export default function Contact() {
                   </div>
                   <div className="info-content">
                     <h3>Email</h3>
-                    <a href="mailto:info@apexhvac.com" className="info-link">info@apexhvac.com</a>
+                    <a href="mailto:sales@goingductless.ca" className="info-link">sales@goingductless.ca</a>
                     <p className="info-note">We respond within 24 hours</p>
                   </div>
                 </div>
@@ -58,9 +65,8 @@ export default function Contact() {
                   </div>
                   <div className="info-content">
                     <h3>Location</h3>
-                    <p className="info-link">123 Industrial Drive</p>
-                    <p className="info-link">Suite 200</p>
-                    <p className="info-link">Your City, ST 12345</p>
+                    <p className="info-link">Bowmanville, Ontario</p>
+                    <p className="info-link">Serving the Greater Toronto Area</p>
                   </div>
                 </div>
               </div>
@@ -72,35 +78,26 @@ export default function Contact() {
                     <span className="day">Monday - Friday</span>
                     <span className="time">8:00 AM - 5:00 PM</span>
                   </div>
-                  <div className="hours-row">
-                    <span className="day">Saturday</span>
-                    <span className="time">9:00 AM - 2:00 PM</span>
-                  </div>
-                  <div className="hours-row">
-                    <span className="day">Sunday</span>
-                    <span className="time">Closed</span>
-                  </div>
                 </div>
-                <p className="emergency-note">
-                  Emergency services available 24/7 for existing clients
-                </p>
               </div>
             </div>
 
             <div className="contact-map">
-              <div className="map-placeholder">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                  <circle cx="12" cy="10" r="3"/>
-                </svg>
-                <p>Map Placeholder</p>
-                <span>Add your Google Maps embed or location map here</span>
-              </div>
+              <iframe
+                title="Going Ductless Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d436591.39342911285!2d-79.01310705376264!3d44.03815987000206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4e05f084a3cbd%3A0x6eedd43c7ac80d3d!2sGoing%20Ductless%20Ltd!5e0!3m2!1sen!2sca!4v1765644729193!5m2!1sen!2sca"
+                width="100%"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen={false}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
 
               <div className="service-area">
                 <h3>Service Area</h3>
                 <p>
-                  We proudly serve commercial and industrial clients throughout the greater metropolitan area and surrounding regions. Contact us to confirm service availability in your location.
+                  We proudly serve commercial clients throughout the <strong>Greater Toronto Area (GTA)</strong> and surrounding regions. From Hamilton to Cobourg, and everywhere in between, Going Ductless delivers expert ductless HVAC solutions across Southern Ontario.
                 </p>
               </div>
             </div>
@@ -112,11 +109,11 @@ export default function Contact() {
         <div className="container">
           <h2>Ready to Start Your Project?</h2>
           <p>
-            Contact us today to discuss your HVAC needs and receive a detailed consultation
+            Contact us today to discuss your commercial ductless HVAC project and receive an engineered solution
           </p>
           <div className="cta-buttons">
-            <a href="tel:+15551234567" className="btn btn-primary">Call Now</a>
-            <a href="mailto:info@apexhvac.com" className="btn btn-secondary">Send Email</a>
+            <a href="tel:+19055551234" className="btn btn-primary">Call Now</a>
+            <a href="mailto:info@goingductless.ca" className="btn btn-secondary">Send Email</a>
           </div>
         </div>
       </section>
