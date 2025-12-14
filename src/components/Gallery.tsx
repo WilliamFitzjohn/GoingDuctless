@@ -54,15 +54,15 @@ export default function Gallery() {
                 <source
                   type="image/webp"
                   srcSet={`/${image.name}-small.webp 400w, /${image.name}-medium.webp 800w, /${image.name}-large.webp 1200w`}
-                  sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
                 <img
-                  src={`/${image.name}-large.webp`}
+                  src={`/${image.name}-medium.webp`}
                   alt={image.alt}
                   loading="lazy"
                   decoding="async"
-                  width="1200"
-                  height="750"
+                  width="800"
+                  height="500"
                 />
               </picture>
               <div className="gallery-overlay" aria-hidden="true">

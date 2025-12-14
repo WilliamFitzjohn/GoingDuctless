@@ -11,5 +11,15 @@ export default defineConfig({
       'goingductless.ca',
       'www.goingductless.ca'
     ]
+  },
+  build: {
+    // Inline CSS smaller than 4KB to eliminate render-blocking requests
+    cssCodeSplit: false,
+    assetsInlineLimit: 4096,
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      }
+    }
   }
 })

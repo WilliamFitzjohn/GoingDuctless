@@ -35,44 +35,72 @@ export default function Home() {
           <div className="logo-strip">
             <Link to="/about#certifications" className="cert-logo">
               <picture>
-                <source type="image/webp" srcSet="/tssa.webp" />
-                <img src="/tssa.png" alt="TSSA Certified" width="300" height="300" loading="eager" />
+                <source 
+                  type="image/webp" 
+                  srcSet="/tssa-small.webp 100w, /tssa.webp 300w"
+                  sizes="100px"
+                />
+                <img src="/tssa.png" alt="TSSA Certified" width="100" height="100" loading="eager" />
               </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
               <picture>
-                <source type="image/webp" srcSet="/hrai.webp" />
-                <img src="/hrai.png" alt="HRAI Member" width="300" height="300" loading="eager" />
+                <source 
+                  type="image/webp" 
+                  srcSet="/hrai-small.webp 100w, /hrai.webp 300w"
+                  sizes="100px"
+                />
+                <img src="/hrai.png" alt="HRAI Member" width="100" height="100" loading="eager" />
               </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
               <picture>
-                <source type="image/webp" srcSet="/wsib.webp" />
-                <img src="/wsib.png" alt="WSIB" width="300" height="300" loading="eager" />
+                <source 
+                  type="image/webp" 
+                  srcSet="/wsib-small.webp 100w, /wsib.webp 300w"
+                  sizes="100px"
+                />
+                <img src="/wsib.png" alt="WSIB" width="100" height="100" loading="eager" />
               </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
               <picture>
-                <source type="image/webp" srcSet="/mitsubishi.webp" />
-                <img src="/mitsubishi.png" alt="Mitsubishi Certified" width="300" height="259" loading="eager" />
+                <source 
+                  type="image/webp" 
+                  srcSet="/mitsubishi-small.webp 100w, /mitsubishi.webp 300w"
+                  sizes="100px"
+                />
+                <img src="/mitsubishi.png" alt="Mitsubishi Certified" width="100" height="86" loading="eager" />
               </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
               <picture>
-                <source type="image/webp" srcSet="/lg.webp" />
-                <img src="/lg.png" alt="LG Certified" width="300" height="300" loading="eager" />
+                <source 
+                  type="image/webp" 
+                  srcSet="/lg-small.webp 100w, /lg.webp 300w"
+                  sizes="100px"
+                />
+                <img src="/lg.png" alt="LG Certified" width="100" height="100" loading="eager" />
               </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
               <picture>
-                <source type="image/webp" srcSet="/lennox.webp" />
-                <img src="/lennox.png" alt="Lennox Certified" width="300" height="168" loading="eager" />
+                <source 
+                  type="image/webp" 
+                  srcSet="/lennox-small.webp 100w, /lennox.webp 300w"
+                  sizes="100px"
+                />
+                <img src="/lennox.png" alt="Lennox Certified" width="100" height="56" loading="eager" />
               </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
               <picture>
-                <source type="image/webp" srcSet="/daikin.webp" />
-                <img src="/daikin.png" alt="Daikin Certified" width="103" height="109" loading="eager" />
+                <source 
+                  type="image/webp" 
+                  srcSet="/daikin-small.webp 100w, /daikin.webp 103w"
+                  sizes="100px"
+                />
+                <img src="/daikin.png" alt="Daikin Certified" width="100" height="106" loading="eager" />
               </picture>
             </Link>
           </div>

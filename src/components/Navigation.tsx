@@ -8,11 +8,20 @@ export default function Navigation() {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="logo">
-          <img 
-            src="/logo-nobackground-cyan.png" 
-            alt="Going Ductless" 
-            className="logo-image"
-          />
+          <picture>
+            <source 
+              type="image/webp" 
+              srcSet="/logo-nobackground-cyan-small.webp 100w, /logo-nobackground-cyan.webp 300w"
+              sizes="(max-width: 768px) 100px, 300px"
+            />
+            <img 
+              src="/logo-nobackground-cyan.png" 
+              alt="Going Ductless" 
+              className="logo-image"
+              width="300"
+              height="69"
+            />
+          </picture>
         </Link>
         <div className="nav-links">
           <Link
