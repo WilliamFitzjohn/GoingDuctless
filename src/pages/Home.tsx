@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <div className="home">
       <SEO 
-        title="Commercial HVAC & Ductless Systems"
-        description="Expert commercial ductless HVAC solutions in the Greater Toronto Area. Over 25 years experience in VRF, VRV, and ductless systems. TSSA certified, HRAI members. Call (905) 239-5567"
-        keywords="ductless HVAC, VRF systems, VRV systems, commercial HVAC, Mitsubishi HVAC, LG HVAC, Lennox, DX piping, Toronto HVAC, Bowmanville HVAC"
+        title="Toronto Commercial HVAC & DX Piping Contractors"
+        description="Going Ductless - Toronto's premier commercial HVAC contractors and GTA DX piping specialists. Expert ductless HVAC solutions, VRF, VRV systems. Over 25 years experience. TSSA certified, HRAI members. Call (905) 239-5567"
+        keywords="going ductless, toronto commercial hvac, gta dx piping contractors, ductless hvac toronto, commercial hvac contractors gta, dx piping specialists, VRF systems toronto, VRV toronto, ductless air conditioning gta, commercial hvac installation toronto, refrigerant piping contractors gta"
       />
       <section className="hero">
         <div className="hero-overlay"></div>
@@ -51,7 +51,7 @@ export default function Home() {
               <img src="/lennox.png" alt="Lennox Certified" />
             </Link>
             <Link to="/about#certifications" className="cert-logo">
-              <img src="/daikin.png" alt="Lennox Certified" />
+              <img src="/daikin.png" alt="Daikin Certified" />
             </Link>
           </div>
         </div>

@@ -5,9 +5,9 @@ export default function Contact() {
   return (
     <div className="contact">
       <SEO 
-        title="Contact Us"
-        description="Contact Going Ductless Ltd. for commercial HVAC solutions in the GTA. Call (905) 239-5567 or email sales@goingductless.ca. Bowmanville, Ontario."
-        keywords="contact HVAC Bowmanville, HVAC quote GTA, ductless HVAC consultation, commercial HVAC services"
+        title="Contact Going Ductless - Toronto Commercial HVAC Contractors"
+        description="Contact Going Ductless Ltd for Toronto commercial HVAC and GTA DX piping services. Call (905) 239-5567 or email sales@goingductless.ca. Bowmanville, serving Greater Toronto Area."
+        keywords="contact going ductless, toronto hvac contractors contact, gta dx piping quote, commercial hvac toronto quote, ductless hvac consultation gta"
         canonical="https://goingductless.ca/contact"
       />
       <section className="contact-hero">

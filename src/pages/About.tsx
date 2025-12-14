@@ -5,9 +5,9 @@ export default function About() {
   return (
     <div className="about">
       <SEO 
-        title="About Us"
-        description="Learn about Going Ductless Ltd. Over 25 years of commercial HVAC excellence in the GTA. TSSA certified, HRAI members. Experts in VRF, VRV, and ductless split systems."
-        keywords="HVAC company Bowmanville, TSSA certified HVAC, HRAI member, commercial HVAC GTA, ductless specialists"
+        title="About Going Ductless - Toronto Commercial HVAC Experts"
+        description="Going Ductless Ltd - Toronto's trusted commercial HVAC contractors. Over 25 years serving the GTA. Expert DX piping, VRF, VRV, and ductless specialists. TSSA certified, HRAI members."
+        keywords="going ductless company, toronto hvac contractors, gta commercial hvac, tssa certified hvac toronto, hrai member, commercial ductless toronto, dx piping contractors gta"
         canonical="https://goingductless.ca/about"
       />
       <section className="about-hero">
@@ -101,7 +101,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="certifications">
+      <section className="certifications" id="certifications">
         <div className="container">
           <h2>Certifications & Memberships</h2>
           <p className="certifications-intro">

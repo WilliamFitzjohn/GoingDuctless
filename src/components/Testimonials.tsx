@@ -30,7 +30,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="testimonials">
+    <section className="testimonials" id="testimonials">
       <div className="container">
         <h2>What Our Clients Say</h2>
         <p className="testimonials-subtitle">
