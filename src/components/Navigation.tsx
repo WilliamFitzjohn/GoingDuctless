@@ -11,11 +11,11 @@ export default function Navigation() {
           <picture>
             <source 
               type="image/webp" 
-              srcSet="/logo-nobackground-cyan-small.webp 100w, /logo-nobackground-cyan.webp 300w"
+              srcSet="/goingductless-logo-small.webp 100w, /goingductless-logo.webp 300w"
               sizes="(max-width: 768px) 100px, 300px"
             />
             <img 
-              src="/logo-nobackground-cyan.webp" 
+              src="/goingductless-logo.webp" 
               alt="Going Ductless" 
               className="logo-image"
               width="300"
