@@ -11,18 +11,21 @@ function ScrollToTop() {
   const { pathname, hash } = useLocation();
 
   useEffect(() => {
-    if (hash) {
-      // If there's a hash, scroll to that element
-      setTimeout(() => {
+    // Use requestAnimationFrame to avoid forced reflow
+    requestAnimationFrame(() => {
+      if (hash) {
+        // If there's a hash, scroll to that element
         const element = document.querySelector(hash);
         if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
+          // Use instant scroll to avoid layout thrashing
+          const top = element.getBoundingClientRect().top + window.pageYOffset;
+          window.scrollTo({ top, behavior: 'instant' });
         }
-      }, 100);
-    } else {
-      // Otherwise scroll to top
-      window.scrollTo(0, 0);
-    }
+      } else {
+        // Otherwise scroll to top instantly
+        window.scrollTo({ top: 0, behavior: 'instant' });
+      }
+    });
   }, [pathname, hash]);
 
   return null;

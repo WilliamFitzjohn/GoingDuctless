@@ -16,12 +16,19 @@
   box-sizing: border-box;
 }
 
+/* Performance: Enable hardware acceleration globally for transforms */
+*:where(:hover, :focus-visible) {
+  backface-visibility: hidden;
+}
+
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
   background-color: #ffffff;
   color: #1a1a1a;
+  /* Optimize font rendering */
+  text-rendering: optimizeSpeed;
 }
 
 #root {

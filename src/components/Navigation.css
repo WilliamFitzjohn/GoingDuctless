@@ -6,6 +6,10 @@
   top: 0;
   z-index: 1000;
   border-bottom: 3px solid #4DA6E0;
+  /* Performance optimizations */
+  will-change: transform;
+  contain: layout style paint;
+  backface-visibility: hidden;
 }
 
 .nav-container {
@@ -27,10 +31,13 @@
   height: 50px;
   width: auto;
   transition: transform 0.3s ease;
+  /* GPU acceleration */
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
 }
 
 .logo:hover .logo-image {
-  transform: scale(1.05);
+  transform: translate3d(0, 0, 0) scale(1.05);
 }
 
 .logo-text {
@@ -75,6 +82,9 @@
   background: #4DA6E0;
   transition: all 0.3s ease;
   transform: translateX(-50%);
+  /* GPU acceleration */
+  will-change: width;
+  backface-visibility: hidden;
 }
 
 .nav-link:hover {

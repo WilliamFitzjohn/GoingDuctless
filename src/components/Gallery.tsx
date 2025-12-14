@@ -1,54 +1,74 @@
 import './Gallery.css';
 
+interface GalleryImage {
+  name: string;
+  alt: string;
+  title: string;
+}
+
 export default function Gallery() {
-  const images = [
+  const images: GalleryImage[] = [
     {
-      url: '/vrfsysteminstall.jpg',
+      name: 'vrfsysteminstall',
       alt: 'VRF System Installation',
       title: 'VRF System Installation'
     },
     {
-      url: '/dxpiping.jpg',
+      name: 'dxpiping',
       alt: 'DX Piping Project',
       title: 'DX Piping'
     },
     {
-      url: '/commercialinstallation.jpg',
+      name: 'commercialinstallation',
       alt: 'Commercial Installation',
       title: 'Commercial Installation'
     },
     {
-      url: '/mechanicalroom.jpg',
+      name: 'mechanicalroom',
       alt: 'Mechanical Room Setup',
       title: 'Mechanical Room Setup'
     },
     {
-      url: '/rooftopunit.jpeg',
+      name: 'rooftopunit',
       alt: 'Rooftop Unit Installation',
       title: 'Rooftop Unit Installation'
     },
     {
-      url: '/engineeredsolutions.jpg',
+      name: 'engineeredsolutions',
       alt: 'Engineering Drawings and Designs',
       title: 'Engineered Solutions'
     }
   ];
 
   return (
-    <section className="gallery">
+    <section className="gallery" aria-labelledby="gallery-heading">
       <div className="container">
-        <h2 className="section-title">Our Work</h2>
+        <h2 id="gallery-heading" className="section-title">Our Work</h2>
         <p className="gallery-subtitle">
           Professional installations and expert craftsmanship on every project
         </p>
-        <div className="gallery-grid">
+        <div className="gallery-grid" role="list">
           {images.map((image, index) => (
-            <div key={index} className="gallery-item">
-              <img src={image.url} alt={image.alt} loading="lazy" />
-              <div className="gallery-overlay">
+            <article key={index} className="gallery-item" role="listitem">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcSet={`/${image.name}-small.webp 400w, /${image.name}-medium.webp 800w, /${image.name}-large.webp 1200w`}
+                  sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px"
+                />
+                <img
+                  src={`/${image.name}-large.webp`}
+                  alt={image.alt}
+                  loading="lazy"
+                  decoding="async"
+                  width="1200"
+                  height="750"
+                />
+              </picture>
+              <div className="gallery-overlay" aria-hidden="true">
                 <span className="gallery-title">{image.title}</span>
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>

@@ -91,6 +91,10 @@
   transition: all 0.3s ease;
   display: inline-block;
   border: 2px solid transparent;
+  /* Performance optimizations */
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 .btn-primary {
@@ -101,7 +105,7 @@
 
 .btn-primary:hover {
   background: #3A8BC7;
-  transform: translateY(-2px);
+  transform: translate3d(0, -2px, 0);
   box-shadow: 0 6px 20px rgba(77, 166, 224, 0.4);
 }
 
@@ -114,7 +118,7 @@
 .btn-secondary:hover {
   background: #ffffff;
   color: #2c5364;
-  transform: translateY(-2px);
+  transform: translate3d(0, -2px, 0);
 }
 
 .btn-large {
@@ -143,6 +147,10 @@
   /* opacity: 0.7; */
   transition: all 0.3s ease;
   height: 60px;
+  /* Performance optimizations */
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 .cert-logo img {

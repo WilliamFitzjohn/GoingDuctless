@@ -12,10 +12,11 @@ export default function Home() {
         description="Going Ductless - Toronto's premier commercial HVAC contractors and GTA DX piping specialists. Expert ductless HVAC solutions, VRF, VRV systems. Over 25 years experience. TSSA certified, HRAI members. Call (905) 239-5567"
         keywords="going ductless, toronto commercial hvac, gta dx piping contractors, ductless hvac toronto, commercial hvac contractors gta, dx piping specialists, VRF systems toronto, VRV toronto, ductless air conditioning gta, commercial hvac installation toronto, refrigerant piping contractors gta"
       />
-      <section className="hero">
+      <main>
+      <section className="hero" aria-labelledby="hero-heading">
         <div className="hero-overlay"></div>
         <div className="hero-content">
-          <h1 className="hero-title">
+          <h1 id="hero-heading" className="hero-title">
             Commercial HVAC Solutions
             <span className="hero-subtitle">The Ductless Airconditioning Experts</span>
           </h1>
@@ -29,37 +30,58 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="social-proof">
+      <nav className="social-proof" aria-label="Certifications and partnerships">
         <div className="container">
           <div className="logo-strip">
             <Link to="/about#certifications" className="cert-logo">
-              <img src="/tssa.png" alt="TSSA Certified" />
+              <picture>
+                <source type="image/webp" srcSet="/tssa.webp" />
+                <img src="/tssa.png" alt="TSSA Certified" width="300" height="300" loading="eager" />
+              </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
-              <img src="/hrai.png" alt="HRAI Member" />
+              <picture>
+                <source type="image/webp" srcSet="/hrai.webp" />
+                <img src="/hrai.png" alt="HRAI Member" width="300" height="300" loading="eager" />
+              </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
-              <img src="/wsib.png" alt="WSIB" />
+              <picture>
+                <source type="image/webp" srcSet="/wsib.webp" />
+                <img src="/wsib.png" alt="WSIB" width="300" height="300" loading="eager" />
+              </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
-              <img src="/mitsubishi.png" alt="Mitsubishi Certified" />
+              <picture>
+                <source type="image/webp" srcSet="/mitsubishi.webp" />
+                <img src="/mitsubishi.png" alt="Mitsubishi Certified" width="300" height="259" loading="eager" />
+              </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
-              <img src="/lg.png" alt="LG Certified" />
+              <picture>
+                <source type="image/webp" srcSet="/lg.webp" />
+                <img src="/lg.png" alt="LG Certified" width="300" height="300" loading="eager" />
+              </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
-              <img src="/lennox.png" alt="Lennox Certified" />
+              <picture>
+                <source type="image/webp" srcSet="/lennox.webp" />
+                <img src="/lennox.png" alt="Lennox Certified" width="300" height="168" loading="eager" />
+              </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
-              <img src="/daikin.png" alt="Daikin Certified" />
+              <picture>
+                <source type="image/webp" srcSet="/daikin.webp" />
+                <img src="/daikin.png" alt="Daikin Certified" width="103" height="109" loading="eager" />
+              </picture>
             </Link>
           </div>
         </div>
-      </section>
+      </nav>
 
-      <section className="services">
+      <section className="services" aria-labelledby="services-heading">
         <div className="container">
-          <h2 className="section-title">Our Specializations</h2>
+          <h2 id="services-heading" className="section-title">Our Specializations</h2>
           <div className="services-grid">
             <div className="service-card">
               <div className="service-icon">
@@ -102,11 +124,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="experience">
+      <section className="experience" aria-labelledby="experience-heading">
         <div className="container">
           <div className="experience-content">
             <div className="experience-text">
-              <h2>Engineered for Excellence</h2>
+              <h2 id="experience-heading">Engineered for Excellence</h2>
               <p>
                 Based in Bowmanville and serving the entire Greater Toronto Area, Going Ductless Ltd. brings over 25 years of specialized expertise in ductless HVAC systems. Our knowledgeable staff delivers engineered solutions tailored to your commercial needs.
               </p>
@@ -136,13 +158,14 @@ export default function Home() {
 
       <Testimonials />
 
-      <section className="cta">
+      <section className="cta" aria-labelledby="cta-heading">
         <div className="container">
-          <h2>Ready to Start Your Project?</h2>
+          <h2 id="cta-heading">Ready to Start Your Project?</h2>
           <p>Contact us today for an engineered ductless HVAC solution tailored to your commercial facility.</p>
           <Link to="/contact" className="btn btn-primary btn-large">Contact Us</Link>
         </div>
       </section>
+      </main>
     </div>
   );
 }
