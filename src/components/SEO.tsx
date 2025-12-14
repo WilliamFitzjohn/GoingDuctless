@@ -13,7 +13,7 @@ export default function SEO({ title, description, keywords, ogImage, canonical }
   const location = useLocation();
   const baseUrl = 'https://goingductless.ca';
   const fullUrl = canonical || `${baseUrl}${location.pathname}`;
-  const defaultImage = `${baseUrl}/logo-nobackground-cyan.png`;
+  const defaultImage = `${baseUrl}/logo-nobackground-cyan.webp`;
   const image = ogImage || defaultImage;
 
   useEffect(() => {

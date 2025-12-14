@@ -40,7 +40,7 @@ export default function Home() {
                   srcSet="/tssa-small.webp 100w, /tssa.webp 300w"
                   sizes="100px"
                 />
-                <img src="/tssa.png" alt="TSSA Certified" width="100" height="100" loading="eager" />
+                <img src="/tssa-small.webp" alt="TSSA Certified" width="100" height="100" loading="eager" />
               </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
@@ -50,7 +50,7 @@ export default function Home() {
                   srcSet="/hrai-small.webp 100w, /hrai.webp 300w"
                   sizes="100px"
                 />
-                <img src="/hrai.png" alt="HRAI Member" width="100" height="100" loading="eager" />
+                <img src="/hrai-small.webp" alt="HRAI Member" width="100" height="100" loading="eager" />
               </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
@@ -60,7 +60,7 @@ export default function Home() {
                   srcSet="/wsib-small.webp 100w, /wsib.webp 300w"
                   sizes="100px"
                 />
-                <img src="/wsib.png" alt="WSIB" width="100" height="100" loading="eager" />
+                <img src="/wsib-small.webp" alt="WSIB" width="100" height="100" loading="eager" />
               </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
@@ -70,7 +70,7 @@ export default function Home() {
                   srcSet="/mitsubishi-small.webp 100w, /mitsubishi.webp 300w"
                   sizes="100px"
                 />
-                <img src="/mitsubishi.png" alt="Mitsubishi Certified" width="100" height="86" loading="eager" />
+                <img src="/mitsubishi-small.webp" alt="Mitsubishi Certified" width="100" height="86" loading="eager" />
               </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
@@ -80,7 +80,7 @@ export default function Home() {
                   srcSet="/lg-small.webp 100w, /lg.webp 300w"
                   sizes="100px"
                 />
-                <img src="/lg.png" alt="LG Certified" width="100" height="100" loading="eager" />
+                <img src="/lg-small.webp" alt="LG Certified" width="100" height="100" loading="eager" />
               </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
@@ -90,7 +90,7 @@ export default function Home() {
                   srcSet="/lennox-small.webp 100w, /lennox.webp 300w"
                   sizes="100px"
                 />
-                <img src="/lennox.png" alt="Lennox Certified" width="100" height="56" loading="eager" />
+                <img src="/lennox-small.webp" alt="Lennox Certified" width="100" height="56" loading="eager" />
               </picture>
             </Link>
             <Link to="/about#certifications" className="cert-logo">
@@ -100,7 +100,7 @@ export default function Home() {
                   srcSet="/daikin-small.webp 100w, /daikin.webp 103w"
                   sizes="100px"
                 />
-                <img src="/daikin.png" alt="Daikin Certified" width="100" height="106" loading="eager" />
+                <img src="/daikin-small.webp" alt="Daikin Certified" width="100" height="106" loading="eager" />
               </picture>
             </Link>
           </div>

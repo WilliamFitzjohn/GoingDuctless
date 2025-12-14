@@ -110,42 +110,42 @@ export default function About() {
           <div className="certifications-grid">
             <div className="cert-card">
               <div className="cert-icon">
-                <img src="/tssa.png" alt="TSSA" />
+                <img src="/tssa-small.webp" alt="TSSA" width="100" height="100" />
               </div>
               <h3>TSSA Certified</h3>
               <p>Technical Standards and Safety Authority certification for refrigeration systems in Ontario</p>
             </div>
             <div className="cert-card">
               <div className="cert-icon">
-                <img src="/hrai.png" alt="HRAI" />
+                <img src="/hrai-small.webp" alt="HRAI" width="100" height="100" />
               </div>
               <h3>HRAI Member</h3>
               <p>Heating, Refrigeration and Air Conditioning Institute of Canada professional member organization</p>
             </div>
             <div className="cert-card">
               <div className="cert-icon">
-                <img src="/wsib.png" alt="WSIB" />
+                <img src="/wsib-small.webp" alt="WSIB" width="100" height="100" />
               </div>
               <h3>Licensed & Insured</h3>
               <p>Fully licensed contractors with comprehensive liability coverage and WSIB compliance</p>
             </div>
             <div className="cert-card">
               <div className="cert-icon">
-                <img src="/mitsubishi.png" alt="Mitsubishi" />
+                <img src="/mitsubishi-small.webp" alt="Mitsubishi" width="100" height="86" />
               </div>
               <h3>Mitsubishi Certified</h3>
               <p>Factory-trained and certified for Mitsubishi Electric ductless system installation</p>
             </div>
             <div className="cert-card">
               <div className="cert-icon">
-                <img src="/lg.png" alt="LG" />
+                <img src="/lg-small.webp" alt="LG" width="100" height="100" />
               </div>
               <h3>LG Certified</h3>
               <p>Authorized LG installer with specialized multi-zone ductless system training</p>
             </div>
             <div className="cert-card">
               <div className="cert-icon">
-                <img src="/lennox.png" alt="Lennox" />
+                <img src="/lennox-small.webp" alt="Lennox" width="100" height="56" />
               </div>
               <h3>Lennox Certified</h3>
               <p>Certified installer for Lennox ductless heating and cooling systems</p>

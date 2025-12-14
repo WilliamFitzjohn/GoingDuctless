@@ -15,7 +15,7 @@ export default function Navigation() {
               sizes="(max-width: 768px) 100px, 300px"
             />
             <img 
-              src="/logo-nobackground-cyan.png" 
+              src="/logo-nobackground-cyan.webp" 
               alt="Going Ductless" 
               className="logo-image"
               width="300"
