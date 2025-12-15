@@ -51,6 +51,22 @@ export default function Footer() {
           </a>
         </div>
 
+        <div className="footer-blog-links">
+          <Link to="/commercial-hvac-toronto" className="footer-blog-link">Toronto</Link>
+          <span className="footer-separator">|</span>
+          <Link to="/commercial-hvac-mississauga" className="footer-blog-link">Mississauga</Link>
+          <span className="footer-separator">|</span>
+          <Link to="/commercial-hvac-north-york" className="footer-blog-link">North York</Link>
+          <span className="footer-separator">|</span>
+          <Link to="/commercial-hvac-scarborough" className="footer-blog-link">Scarborough</Link>
+          <span className="footer-separator">|</span>
+          <Link to="/ductless-commercial-hvac-toronto" className="footer-blog-link">Ductless</Link>
+          <span className="footer-separator">|</span>
+          <Link to="/vrf-vrv-systems-toronto" className="footer-blog-link">VRF/VRV</Link>
+          <span className="footer-separator">|</span>
+          <Link to="/dx-piping-contractors-toronto" className="footer-blog-link">DX Piping</Link>
+        </div>
+
         <div className="footer-bottom">
           <p className="footer-copyright">
             © {currentYear} Going Ductless Ltd. All rights reserved.

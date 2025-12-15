@@ -36,7 +36,7 @@
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .social-link {
@@ -49,6 +49,34 @@
   background: rgba(77, 166, 224, 0.1);
   color: #4DA6E0;
   transition: all 0.3s ease;
+}
+
+.footer-blog-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.footer-blog-link {
+  color: #808080;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+
+.footer-blog-link:hover {
+  color: #4DA6E0;
+}
+
+.footer-separator {
+  color: #606060;
+  font-size: 0.85rem;
+  user-select: none;
 }
 
 .social-link:hover {

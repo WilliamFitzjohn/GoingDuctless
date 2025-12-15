@@ -5,6 +5,13 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import CommercialHVACToronto from './pages/blog/CommercialHVACToronto';
+import CommercialHVACMississauga from './pages/blog/CommercialHVACMississauga';
+import CommercialHVACNorthYork from './pages/blog/CommercialHVACNorthYork';
+import CommercialHVACScarborough from './pages/blog/CommercialHVACScarborough';
+import DuctlessHVACToronto from './pages/blog/DuctlessHVACToronto';
+import VRFVRVToronto from './pages/blog/VRFVRVToronto';
+import DXPipingToronto from './pages/blog/DXPipingToronto';
 import './App.css';
 
 function ScrollToTop() {
@@ -41,6 +48,17 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          
+          {/* Blog/Location Pages - Flat URLs */}
+          <Route path="/commercial-hvac-toronto" element={<CommercialHVACToronto />} />
+          <Route path="/commercial-hvac-mississauga" element={<CommercialHVACMississauga />} />
+          <Route path="/commercial-hvac-north-york" element={<CommercialHVACNorthYork />} />
+          <Route path="/commercial-hvac-scarborough" element={<CommercialHVACScarborough />} />
+          
+          {/* Blog/Service Pages - Flat URLs */}
+          <Route path="/ductless-commercial-hvac-toronto" element={<DuctlessHVACToronto />} />
+          <Route path="/vrf-vrv-systems-toronto" element={<VRFVRVToronto />} />
+          <Route path="/dx-piping-contractors-toronto" element={<DXPipingToronto />} />
         </Routes>
         <Footer />
       </div>
