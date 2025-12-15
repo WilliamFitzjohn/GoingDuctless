@@ -75,6 +75,10 @@
   line-height: 1.6;
 }
 
+.years-badge {
+  color: #4DA6E0;
+}
+
 .hero-buttons {
   display: flex;
   gap: 1.5rem;

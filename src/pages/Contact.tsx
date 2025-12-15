@@ -65,8 +65,9 @@ export default function Contact() {
                   </div>
                   <div className="info-content">
                     <h3>Location</h3>
-                    <p className="info-link">Bowmanville, Ontario</p>
-                    <p className="info-link">Serving the Greater Toronto Area</p>
+                    <p className="info-link">2185 Durham Regional Rd 42</p>
+                    <p className="info-link">Bowmanville, ON L1C 0W9</p>
+                    <p className="info-note">Serving the Greater Toronto Area</p>
                   </div>
                 </div>
               </div>

@@ -268,8 +268,13 @@ a.info-link:hover {
   }
 
   .info-card {
-    flex-direction: column;
-    text-align: center;
+    padding: 1.5rem;
+    align-items: center;
+  }
+
+  .info-icon {
+    width: 40px;
+    height: 40px;
   }
 
   .cta-buttons {

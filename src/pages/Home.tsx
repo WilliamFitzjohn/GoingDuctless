@@ -21,7 +21,7 @@ export default function Home() {
             <span className="hero-subtitle">The Ductless Airconditioning Experts</span>
           </h1>
           <p className="hero-description">
-            Over 25 years of engineering excellence in VRF, VRV, ductless, and large DX systems.<br/>Serving the Greater Toronto Area, and beyond with certified installations.
+            Over <strong className="years-badge">25 years</strong> of engineering excellence in VRF, VRV, ductless, and large DX systems.<br/>Serving the Greater Toronto Area, and beyond with certified installations.
           </p>
           <div className="hero-buttons">
             <Link to="/contact" className="btn btn-primary">Get In Touch</Link>
