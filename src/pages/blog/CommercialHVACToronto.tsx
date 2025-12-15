@@ -8,7 +8,7 @@ export default function Toronto() {
         title="Commercial HVAC Contractors Toronto - VRF, VRV & Ductless Systems"
         description="Leading commercial HVAC contractors in Toronto. Expert VRF, VRV, and ductless system installation for offices, retail, and institutional buildings. TSSA certified. Call (905) 239-5567"
         keywords="commercial hvac toronto, hvac contractors toronto, VRF systems toronto, VRV toronto, ductless hvac toronto, commercial air conditioning toronto, toronto hvac installation"
-        canonical="https://goingductless.ca/commercial-hvac-toronto"
+        canonical="https://goingductless.ca/commercial-hvac-toronto/"
       />
       
       <section className="location-hero">

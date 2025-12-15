@@ -9,10 +9,10 @@ export default function Footer() {
       <div className="footer-content">
         <nav className="footer-links">
           <Link to="/" className="footer-link">Home</Link>
-          <Link to="/about" className="footer-link">About Us</Link>
+          <Link to="/about/" className="footer-link">About Us</Link>
           <Link to="/#testimonials" className="footer-link">Testimonials</Link>
-          <Link to="/about#certifications" className="footer-link">Certifications</Link>
-          <Link to="/contact" className="footer-link">Contact Us</Link>
+          <Link to="/about/#certifications" className="footer-link">Certifications</Link>
+          <Link to="/contact/" className="footer-link">Contact Us</Link>
         </nav>
 
         <div className="footer-social">
@@ -52,19 +52,19 @@ export default function Footer() {
         </div>
 
         <div className="footer-blog-links">
-          <Link to="/commercial-hvac-toronto" className="footer-blog-link">Toronto</Link>
+          <Link to="/commercial-hvac-toronto/" className="footer-blog-link">Toronto</Link>
           <span className="footer-separator">|</span>
-          <Link to="/commercial-hvac-mississauga" className="footer-blog-link">Mississauga</Link>
+          <Link to="/commercial-hvac-mississauga/" className="footer-blog-link">Mississauga</Link>
           <span className="footer-separator">|</span>
-          <Link to="/commercial-hvac-north-york" className="footer-blog-link">North York</Link>
+          <Link to="/commercial-hvac-north-york/" className="footer-blog-link">North York</Link>
           <span className="footer-separator">|</span>
-          <Link to="/commercial-hvac-scarborough" className="footer-blog-link">Scarborough</Link>
+          <Link to="/commercial-hvac-scarborough/" className="footer-blog-link">Scarborough</Link>
           <span className="footer-separator">|</span>
-          <Link to="/ductless-commercial-hvac-toronto" className="footer-blog-link">Ductless</Link>
+          <Link to="/ductless-commercial-hvac-toronto/" className="footer-blog-link">Ductless</Link>
           <span className="footer-separator">|</span>
-          <Link to="/vrf-vrv-systems-toronto" className="footer-blog-link">VRF/VRV</Link>
+          <Link to="/vrf-vrv-systems-toronto/" className="footer-blog-link">VRF/VRV</Link>
           <span className="footer-separator">|</span>
-          <Link to="/dx-piping-contractors-toronto" className="footer-blog-link">DX Piping</Link>
+          <Link to="/dx-piping-contractors-toronto/" className="footer-blog-link">DX Piping</Link>
         </div>
 
         <div className="footer-bottom">

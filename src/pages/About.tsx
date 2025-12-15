@@ -8,7 +8,7 @@ export default function About() {
         title="About Going Ductless - Toronto Commercial HVAC Experts"
         description="Going Ductless Ltd - Toronto's trusted commercial HVAC contractors. Over 25 years serving the GTA. Expert DX piping, VRF, VRV, and ductless specialists. TSSA certified, HRAI members."
         keywords="going ductless company, toronto hvac contractors, gta commercial hvac, tssa certified hvac toronto, hrai member, commercial ductless toronto, dx piping contractors gta"
-        canonical="https://goingductless.ca/about"
+        canonical="https://goingductless.ca/about/"
       />
       <section className="about-hero">
         <div className="container">

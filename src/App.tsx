@@ -46,19 +46,19 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/about/" element={<About />} />
+          <Route path="/contact/" element={<Contact />} />
           
           {/* Blog/Location Pages - Flat URLs */}
-          <Route path="/commercial-hvac-toronto" element={<CommercialHVACToronto />} />
-          <Route path="/commercial-hvac-mississauga" element={<CommercialHVACMississauga />} />
-          <Route path="/commercial-hvac-north-york" element={<CommercialHVACNorthYork />} />
-          <Route path="/commercial-hvac-scarborough" element={<CommercialHVACScarborough />} />
+          <Route path="/commercial-hvac-toronto/" element={<CommercialHVACToronto />} />
+          <Route path="/commercial-hvac-mississauga/" element={<CommercialHVACMississauga />} />
+          <Route path="/commercial-hvac-north-york/" element={<CommercialHVACNorthYork />} />
+          <Route path="/commercial-hvac-scarborough/" element={<CommercialHVACScarborough />} />
           
           {/* Blog/Service Pages - Flat URLs */}
-          <Route path="/ductless-commercial-hvac-toronto" element={<DuctlessHVACToronto />} />
-          <Route path="/vrf-vrv-systems-toronto" element={<VRFVRVToronto />} />
-          <Route path="/dx-piping-contractors-toronto" element={<DXPipingToronto />} />
+          <Route path="/ductless-commercial-hvac-toronto/" element={<DuctlessHVACToronto />} />
+          <Route path="/vrf-vrv-systems-toronto/" element={<VRFVRVToronto />} />
+          <Route path="/dx-piping-contractors-toronto/" element={<DXPipingToronto />} />
         </Routes>
         <Footer />
       </div>

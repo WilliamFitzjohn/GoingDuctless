@@ -8,7 +8,7 @@ export default function Contact() {
         title="Contact Going Ductless - Toronto Commercial HVAC Contractors"
         description="Contact Going Ductless Ltd for Toronto commercial HVAC and GTA DX piping services. Call (905) 239-5567 or email sales@goingductless.ca. Bowmanville, serving Greater Toronto Area."
         keywords="contact going ductless, toronto hvac contractors contact, gta dx piping quote, commercial hvac toronto quote, ductless hvac consultation gta"
-        canonical="https://goingductless.ca/contact"
+        canonical="https://goingductless.ca/contact/"
       />
       <section className="contact-hero">
         <div className="container">

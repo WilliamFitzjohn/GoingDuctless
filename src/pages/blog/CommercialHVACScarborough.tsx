@@ -8,7 +8,7 @@ export default function Scarborough() {
         title="Commercial HVAC Contractors Scarborough - Ductless & VRF Installation"
         description="Scarborough commercial HVAC contractors for industrial, retail, and office facilities. Expert ductless systems, VRF installation, and DX piping. TSSA certified. Call (905) 239-5567"
         keywords="commercial hvac scarborough, hvac contractors scarborough, ductless hvac scarborough, industrial hvac scarborough, VRF systems scarborough"
-        canonical="https://goingductless.ca/commercial-hvac-scarborough"
+        canonical="https://goingductless.ca/commercial-hvac-scarborough/"
       />
       
       <section className="location-hero">

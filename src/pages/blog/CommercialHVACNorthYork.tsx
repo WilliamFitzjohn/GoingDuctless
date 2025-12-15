@@ -8,7 +8,7 @@ export default function NorthYork() {
         title="Commercial HVAC Contractors North York - VRF & Ductless Experts"
         description="North York commercial HVAC contractors specializing in VRF, VRV, and ductless systems. Serving Yonge corridor, business districts, and institutional facilities. TSSA certified. Call (905) 239-5567"
         keywords="commercial hvac north york, hvac contractors north york, VRF systems north york, ductless hvac north york, commercial air conditioning north york"
-        canonical="https://goingductless.ca/commercial-hvac-north-york"
+        canonical="https://goingductless.ca/commercial-hvac-north-york/"
       />
       
       <section className="location-hero">

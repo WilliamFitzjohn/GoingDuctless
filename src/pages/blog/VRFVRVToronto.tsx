@@ -8,7 +8,7 @@ export default function VRFToronto() {
         title="VRF & VRV Systems Toronto - Commercial Variable Refrigerant Flow Installation"
         description="Toronto VRF and VRV system specialists. Expert Variable Refrigerant Flow installation for commercial buildings, offices, and multi-tenant properties. TSSA certified. Call (905) 239-5567"
         keywords="VRF systems toronto, VRV toronto, variable refrigerant flow toronto, commercial VRF toronto, VRF installation toronto, Mitsubishi VRF toronto, Daikin VRV toronto"
-        canonical="https://goingductless.ca/vrf-vrv-systems-toronto"
+        canonical="https://goingductless.ca/vrf-vrv-systems-toronto/"
       />
       
       <section className="service-hero">

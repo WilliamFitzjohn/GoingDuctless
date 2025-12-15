@@ -8,7 +8,7 @@ export default function DuctlessToronto() {
         title="Ductless Commercial HVAC Toronto - Multi-Split & Single-Split Systems"
         description="Toronto commercial ductless HVAC specialists. Expert installation of multi-split and single-split ductless systems for offices, retail, and institutional buildings. TSSA certified. Call (905) 239-5567"
         keywords="ductless hvac toronto, ductless air conditioning toronto, multi-split systems toronto, commercial ductless toronto, ductless heating toronto"
-        canonical="https://goingductless.ca/ductless-commercial-hvac-toronto"
+        canonical="https://goingductless.ca/ductless-commercial-hvac-toronto/"
       />
       
       <section className="service-hero">

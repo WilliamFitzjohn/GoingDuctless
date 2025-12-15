@@ -24,8 +24,8 @@ export default function Home() {
             Over <strong className="years-badge">25 years</strong> of engineering excellence in VRF, VRV, ductless, and large DX systems.<br/>Serving the Greater Toronto Area, and beyond with certified installations.
           </p>
           <div className="hero-buttons">
-            <Link to="/contact" className="btn btn-primary">Get In Touch</Link>
-            <Link to="/about" className="btn btn-secondary">Learn More</Link>
+            <Link to="/contact/" className="btn btn-primary">Get In Touch</Link>
+            <Link to="/about/" className="btn btn-secondary">Learn More</Link>
           </div>
         </div>
       </section>
@@ -33,7 +33,7 @@ export default function Home() {
       <nav className="social-proof" aria-label="Certifications and partnerships">
         <div className="container">
           <div className="logo-strip">
-            <Link to="/about#certifications" className="cert-logo">
+            <Link to="/about/#certifications" className="cert-logo">
               <picture>
                 <source 
                   type="image/webp" 
@@ -43,7 +43,7 @@ export default function Home() {
                 <img src="/tssa-small.webp" alt="TSSA Certified" width="100" height="100" loading="eager" />
               </picture>
             </Link>
-            <Link to="/about#certifications" className="cert-logo">
+            <Link to="/about/#certifications" className="cert-logo">
               <picture>
                 <source 
                   type="image/webp" 
@@ -53,7 +53,7 @@ export default function Home() {
                 <img src="/hrai-small.webp" alt="HRAI Member" width="100" height="100" loading="eager" />
               </picture>
             </Link>
-            <Link to="/about#certifications" className="cert-logo">
+            <Link to="/about/#certifications" className="cert-logo">
               <picture>
                 <source 
                   type="image/webp" 
@@ -63,7 +63,7 @@ export default function Home() {
                 <img src="/wsib-small.webp" alt="WSIB" width="100" height="100" loading="eager" />
               </picture>
             </Link>
-            <Link to="/about#certifications" className="cert-logo">
+            <Link to="/about/#certifications" className="cert-logo">
               <picture>
                 <source 
                   type="image/webp" 
@@ -73,7 +73,7 @@ export default function Home() {
                 <img src="/mitsubishi-small.webp" alt="Mitsubishi Certified" width="100" height="86" loading="eager" />
               </picture>
             </Link>
-            <Link to="/about#certifications" className="cert-logo">
+            <Link to="/about/#certifications" className="cert-logo">
               <picture>
                 <source 
                   type="image/webp" 
@@ -83,7 +83,7 @@ export default function Home() {
                 <img src="/lg-small.webp" alt="LG Certified" width="100" height="100" loading="eager" />
               </picture>
             </Link>
-            <Link to="/about#certifications" className="cert-logo">
+            <Link to="/about/#certifications" className="cert-logo">
               <picture>
                 <source 
                   type="image/webp" 
@@ -93,7 +93,7 @@ export default function Home() {
                 <img src="/lennox-small.webp" alt="Lennox Certified" width="100" height="56" loading="eager" />
               </picture>
             </Link>
-            <Link to="/about#certifications" className="cert-logo">
+            <Link to="/about/#certifications" className="cert-logo">
               <picture>
                 <source 
                   type="image/webp" 
@@ -190,7 +190,7 @@ export default function Home() {
         <div className="container">
           <h2 id="cta-heading">Ready to Start Your Project?</h2>
           <p>Contact us today for an engineered ductless HVAC solution tailored to your commercial facility.</p>
-          <Link to="/contact" className="btn btn-primary btn-large">Contact Us</Link>
+          <Link to="/contact/" className="btn btn-primary btn-large">Contact Us</Link>
         </div>
       </section>
       </main>

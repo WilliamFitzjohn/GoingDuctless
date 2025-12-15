@@ -8,7 +8,7 @@ export default function Mississauga() {
         title="Commercial HVAC Contractors Mississauga - Ductless & VRF Systems"
         description="Professional commercial HVAC contractors serving Mississauga. Expert ductless, VRF, and VRV system installation for businesses across Peel Region. TSSA certified. Call (905) 239-5567"
         keywords="commercial hvac mississauga, hvac contractors mississauga, ductless hvac mississauga, VRF systems mississauga, commercial air conditioning mississauga, peel region hvac"
-        canonical="https://goingductless.ca/commercial-hvac-mississauga"
+        canonical="https://goingductless.ca/commercial-hvac-mississauga/"
       />
       
       <section className="location-hero">

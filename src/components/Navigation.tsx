@@ -31,14 +31,14 @@ export default function Navigation() {
             Home
           </Link>
           <Link
-            to="/about"
-            className={location.pathname === '/about' ? 'nav-link active' : 'nav-link'}
+            to="/about/"
+            className={location.pathname === '/about/' ? 'nav-link active' : 'nav-link'}
           >
             About
           </Link>
           <Link
-            to="/contact"
-            className={location.pathname === '/contact' ? 'nav-link active' : 'nav-link'}
+            to="/contact/"
+            className={location.pathname === '/contact/' ? 'nav-link active' : 'nav-link'}
           >
             Contact
           </Link>
