@@ -5,7 +5,7 @@ export default function DXPipingToronto() {
   return (
     <div className="service-page">
       <SEO 
-        title="DX Piping Contractors Toronto - Commercial Refrigerant Piping Specialists"
+        title="DX Piping Contractors Toronto"
         description="Expert DX (Direct Expansion) refrigerant piping contractors in Toronto. Professional copper piping, brazing, and installation for commercial VRF, VRV, and ductless HVAC systems. TSSA certified. Call (905) 239-5567"
         keywords="DX piping toronto, refrigerant piping toronto, copper piping contractors toronto, commercial refrigerant lines toronto, VRF piping toronto, ductless piping contractors"
         canonical="https://goingductless.ca/dx-piping-contractors-toronto/"

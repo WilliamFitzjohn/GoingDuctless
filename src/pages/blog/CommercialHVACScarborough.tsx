@@ -5,7 +5,7 @@ export default function Scarborough() {
   return (
     <div className="location-page">
       <SEO 
-        title="Commercial HVAC Contractors Scarborough - Ductless & VRF Installation"
+        title="Commercial HVAC Scarborough - Ductless & VRF Systems"
         description="Scarborough commercial HVAC contractors for industrial, retail, and office facilities. Expert ductless systems, VRF installation, and DX piping. TSSA certified. Call (905) 239-5567"
         keywords="commercial hvac scarborough, hvac contractors scarborough, ductless hvac scarborough, industrial hvac scarborough, VRF systems scarborough"
         canonical="https://goingductless.ca/commercial-hvac-scarborough/"
@@ -13,7 +13,7 @@ export default function Scarborough() {
       
       <section className="location-hero">
         <div className="container">
-          <h1>Commercial HVAC Contractors Scarborough</h1>
+          <h1>Commercial HVAC Scarborough - Ductless & VRF Systems</h1>
           <p className="location-lead">
             Industrial-grade ductless HVAC for Scarborough's diverse commercial sector
           </p>

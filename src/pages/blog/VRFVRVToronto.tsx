@@ -5,7 +5,7 @@ export default function VRFToronto() {
   return (
     <div className="service-page">
       <SEO 
-        title="VRF & VRV Systems Toronto - Commercial Variable Refrigerant Flow Installation"
+        title="VRF & VRV Systems Toronto"
         description="Toronto VRF and VRV system specialists. Expert Variable Refrigerant Flow installation for commercial buildings, offices, and multi-tenant properties. TSSA certified. Call (905) 239-5567"
         keywords="VRF systems toronto, VRV toronto, variable refrigerant flow toronto, commercial VRF toronto, VRF installation toronto, Mitsubishi VRF toronto, Daikin VRV toronto"
         canonical="https://goingductless.ca/vrf-vrv-systems-toronto/"
@@ -13,7 +13,7 @@ export default function VRFToronto() {
       
       <section className="service-hero">
         <div className="container">
-          <h1>VRF & VRV Systems Toronto</h1>
+          <h1>VRF & VRV Systems Toronto - Commercial Contractors</h1>
           <p className="service-lead">
             Advanced Variable Refrigerant Flow technology for Toronto commercial buildings
           </p>
